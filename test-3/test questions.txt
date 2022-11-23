@@ -1,0 +1,33 @@
+1) WAP to check for balanced brackets in an expression using stack
+
+inp1: [()]{}{[()()]()}
+out1: balanced
+
+inp2: [(])
+out2: not balanced
+
+2) WAP to find all permutations of a string
+
+inp1: abc
+out1:
+abc
+acb
+bac
+bca
+cab
+cba 
+
+3) WAP to find the minimum number of operations required to return to the main folder.
+   Jon is working on a complex project. The main directory has many nested directories i.e. directory inside a directory. 
+   Due to the complexity, he has to change the directory every time he has to work on a different module. Sometimes he 
+   does not remember in which directory he is working and how to go back to the main directory i.e. the root directory.
+   As his colleague, he requests you to write a program which would find the minimum steps required to return to the main folder.
+   1. "../" moves to the parent folder of the current folder.
+   2. "./" remains in the same folder.
+   3. "F/" moves to the child folder named F.
+
+inp1: 
+6
+["F1/","F2/","./","F3/","../","F31/"]
+
+out1: 3

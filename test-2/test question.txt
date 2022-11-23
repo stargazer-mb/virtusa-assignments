@@ -1,0 +1,20 @@
+WAP to read a number and convert to string, 
+if number of digits is odd, then print the 
+reverse of the number else reverse first half 
+and second half 
+
+inp1 : 1234567
+our1: 7654321
+
+inp2: 135792
+out2: 531297
+
+
+
+WAP to replace every character with the next 3rd character from a given string
+
+inp1: abcd
+out1: defg
+
+inp2: xza
+inp3: acd
